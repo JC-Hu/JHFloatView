@@ -10,7 +10,7 @@ s.license      = "MIT"
 s.author             = { "JC-Hu" => "jchu_dlcn@icloud.com" }\
 
 s.platform     = :ios, "8.0"
-s.source       = { :git => "https://github.com/JC-Hu/JHFloatView", :tag => s.version }
+s.source       = { :git => "https://github.com/JC-Hu/JHFloatView.git", :tag => s.version }
 s.frameworks   =  'Foundation','UIKit'
 s.requires_arc = true
 
