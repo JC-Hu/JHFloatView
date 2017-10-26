@@ -17,6 +17,7 @@
 		9DA8DEA71FA207400077DFFF /* JHBlurFloatView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8DEA01FA2073F0077DFFF /* JHBlurFloatView.m */; };
 		9DA8DEA81FA207400077DFFF /* JHPenetrableWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8DEA21FA2073F0077DFFF /* JHPenetrableWindow.m */; };
 		9DA8DEA91FA207400077DFFF /* UIView+JHFCShortcut.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DA8DEA51FA2073F0077DFFF /* UIView+JHFCShortcut.m */; };
+		9DA8DEAB1FA20BB90077DFFF /* JHFloatView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9DA8DEAA1FA20BB90077DFFF /* JHFloatView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		9DA8DEA21FA2073F0077DFFF /* JHPenetrableWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHPenetrableWindow.m; sourceTree = "<group>"; };
 		9DA8DEA41FA2073F0077DFFF /* UIView+JHFCShortcut.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JHFCShortcut.h"; sourceTree = "<group>"; };
 		9DA8DEA51FA2073F0077DFFF /* UIView+JHFCShortcut.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JHFCShortcut.m"; sourceTree = "<group>"; };
+		9DA8DEAA1FA20BB90077DFFF /* JHFloatView.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JHFloatView.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				9DA8DE851FA205ED0077DFFF /* LaunchScreen.storyboard */,
 				9DA8DE881FA205ED0077DFFF /* Info.plist */,
 				9DA8DE891FA205ED0077DFFF /* main.m */,
+				9DA8DEAA1FA20BB90077DFFF /* JHFloatView.podspec */,
 			);
 			path = JHFloatView;
 			sourceTree = "<group>";
@@ -175,6 +178,7 @@
 			files = (
 				9DA8DE871FA205ED0077DFFF /* LaunchScreen.storyboard in Resources */,
 				9DA8DE841FA205ED0077DFFF /* Assets.xcassets in Resources */,
+				9DA8DEAB1FA20BB90077DFFF /* JHFloatView.podspec in Resources */,
 				9DA8DE821FA205ED0077DFFF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
