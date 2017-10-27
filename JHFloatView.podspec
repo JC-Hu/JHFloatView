@@ -15,12 +15,12 @@ s.frameworks   =  'Foundation','UIKit'
 s.requires_arc = true
 
 s.subspec 'JHFloatView' do |ss|
-ss.source_files = 'QCCR_SH_StoreModule/src/JHFloatView/**/*.{h,m,c,mm}'
+ss.source_files = 'JHFloatView/src/JHFloatView/**/*.{h,m,c,mm}'
 
 end
 
 s.subspec 'Others' do |ss|
-ss.source_files = 'QCCR_SH_StoreModule/src/Others/**/*.{h,m,c,mm}'
+ss.source_files = 'JHFloatView/src/Others/**/*.{h,m,c,mm}'
 
 end
 
