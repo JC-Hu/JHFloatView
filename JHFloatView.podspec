@@ -14,14 +14,6 @@ s.source       = { :git => "https://github.com/JC-Hu/JHFloatView.git", :tag => s
 s.frameworks   =  'Foundation','UIKit'
 s.requires_arc = true
 
-s.subspec 'JHFloatView' do |ss|
-ss.source_files = 'src/JHFloatView/**/*.{h,m,c,mm}'
-
-end
-
-s.subspec 'Others' do |ss|
-ss.source_files = 'src/Others/**/*.{h,m,c,mm}'
-
-end
+s.source_files = 'src/**/*.{h,m,c,mm}'
 
 end
