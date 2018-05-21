@@ -9,6 +9,13 @@
 #import "JHBaseFloatView.h"
 #import "UIView+JHFCShortcut.h"
 
+@interface JHBaseFloatView ()
+
+@property (nonatomic, strong) UIPanGestureRecognizer *panGR;
+
+@end;
+
+
 @implementation JHBaseFloatView
 
 
@@ -18,9 +25,9 @@
     
     if (self) {
         
-        UIPanGestureRecognizer *panGR = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGRAction:)];
+        self.panGR = [[UIPanGestureRecognizer alloc] initWithTarget:self action:@selector(panGRAction:)];
         
-        [self addGestureRecognizer:panGR];
+        [self addGestureRecognizer:self.panGR];
         
         
     }
@@ -48,8 +55,6 @@
     
     self.floatWindow = window;
     
-//    self.center = [self.superview convertPoint:self.boundaryView.center fromView:self.boundaryView.superview];
-    
 }
 
 - (void)dismiss
@@ -62,6 +67,7 @@
 
 - (void)panGRAction:(UIPanGestureRecognizer *)sender
 {
+    
     CGPoint point = [sender translationInView:sender.view];
     
     self.x += point.x;
@@ -83,6 +89,11 @@
     
 }
 
+
+- (void)setDisablePanGR:(BOOL)disablePanGR
+{
+    self.panGR.enabled = disablePanGR;
+}
 
 
 @end

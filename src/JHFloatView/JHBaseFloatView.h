@@ -13,6 +13,7 @@
 
 @property (nonatomic, weak) UIView *boundaryView;
 
+- (void)setDisablePanGR:(BOOL)disablePanGR;
 
 
 @property (nonatomic, strong) JHPenetrableWindow *floatWindow;
