@@ -92,7 +92,7 @@
 
 - (void)setDisablePanGR:(BOOL)disablePanGR
 {
-    self.panGR.enabled = disablePanGR;
+    self.panGR.enabled = !disablePanGR;
 }
 
 
