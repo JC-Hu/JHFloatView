@@ -32,6 +32,8 @@
         [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[clearContentView]|" options:0 metrics:nil views:views]];
         [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[clearContentView]|" options:0 metrics:nil views:views]];
         
+        
+        self.blurEffect = YES;
     }
     return self;
 }
