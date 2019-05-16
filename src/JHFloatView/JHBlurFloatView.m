@@ -27,11 +27,11 @@
         [self addSubview:self.effectView];
         [self addSubview:self.clearContentView];
         
-        NSDictionary *views = @{@"blurContentView":self.blurContentView, @"effectView":self.effectView,@"clearContentView":self.clearContentView};
-        
-        [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[clearContentView]|" options:0 metrics:nil views:views]];
-        [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[clearContentView]|" options:0 metrics:nil views:views]];
-        
+//        NSDictionary *views = @{@"blurContentView":self.blurContentView, @"effectView":self.effectView,@"clearContentView":self.clearContentView};
+//
+//        [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"H:|[clearContentView]|" options:0 metrics:nil views:views]];
+//        [self addConstraints:[NSLayoutConstraint constraintsWithVisualFormat:@"V:|[clearContentView]|" options:0 metrics:nil views:views]];
+//
         
         self.blurEffect = YES;
     }
